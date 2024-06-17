@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -8,7 +6,12 @@ function App() {
 
   return (
     <>
-      <div>
+      <div
+        className="w-full h-screen flex  flex-wrap justify-center items-center bg-cover bg-no-repeat"
+        style={{
+          backgroundImage: `url(https://images.pexels.com/photos/904735/pexels-photo-904735.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)`,
+        }}
+      >
         <h1 className="bg-red-200">Test for tailwind</h1>
       </div>
     </>
