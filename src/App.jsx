@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import { InputBox } from './components'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
         }}
       >
         <h1 className="bg-red-200">Test for tailwind</h1>
+        <InputBox />
       </div>
     </>
   )
